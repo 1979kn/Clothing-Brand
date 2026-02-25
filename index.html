@@ -1,1 +1,312 @@
-<h1>my name is kamala neupane</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Fiesta - Online Store</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+header{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#ff416c;
+    font-weight:600;
+}
+
+section{
+    padding:40px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#333;
+}
+
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+    text-align:center;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+    color:#ff416c;
+}
+
+.card-content p{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.card-content button{
+    background:#ff416c;
+    border:none;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.card-content button:hover{
+    background:#ff4b2b;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>✨ Fashion Fiesta ✨</header>
+
+<nav>
+<a href="#men">Men</a>
+<a href="#women">Women</a>
+<a href="#shoes">Shoes</a>
+<a href="#bags">Bags</a>
+</nav>
+
+<!-- MEN SECTION -->
+<section id="men">
+<h2>👔 Men's Collection</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="Shirts">
+<div class="card-content">
+<h3>Casual Shirts</h3>
+<p>Stylish cotton casual shirts</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0" alt="Tshirts">
+<div class="card-content">
+<h3>T-Shirts</h3>
+<p>Comfortable printed T-Shirts</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2" alt="Jeans">
+<div class="card-content">
+<h3>Jeans</h3>
+<p>Trendy slim-fit jeans</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Blazers">
+<div class="card-content">
+<h3>Blazers</h3>
+<p>Premium formal blazers</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1602810319428-019690571b5b" alt="Hoodies">
+<div class="card-content">
+<h3>Hoodies</h3>
+<p>Warm & stylish hoodies</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- WOMEN SECTION -->
+<section id="women">
+<h2>👗 Women's Collection</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d" alt="Dresses">
+<div class="card-content">
+<h3>Dresses</h3>
+<p>Elegant party dresses</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520974735194-67b66c2a0f03" alt="Tops">
+<div class="card-content">
+<h3>Tops</h3>
+<p>Trendy stylish tops</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03" alt="Skirts">
+<div class="card-content">
+<h3>Skirts</h3>
+<p>Modern fashionable skirts</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3" alt="Jeans">
+<div class="card-content">
+<h3>Women's Jeans</h3>
+<p>Comfortable & trendy jeans</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509631179647-0177331693ae" alt="Saree">
+<div class="card-content">
+<h3>Sarees</h3>
+<p>Traditional & modern sarees</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- SHOES SECTION -->
+<section id="shoes">
+<h2>👟 Shoes Collection</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1528701800489-20be3c8fcb4e" alt="Sneakers">
+<div class="card-content">
+<h3>Sneakers</h3>
+<p>Comfortable running sneakers</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86" alt="Heels">
+<div class="card-content">
+<h3>High Heels</h3>
+<p>Elegant party heels</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595341595379-cf0fbb76b5f3" alt="Formal Shoes">
+<div class="card-content">
+<h3>Formal Shoes</h3>
+<p>Premium leather shoes</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- BAGS SECTION -->
+<section id="bags">
+<h2>👜 Bags Collection</h2>
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3" alt="Handbags">
+<div class="card-content">
+<h3>Handbags</h3>
+<p>Luxury stylish handbags</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa" alt="Backpacks">
+<div class="card-content">
+<h3>Backpacks</h3>
+<p>Durable travel backpacks</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10" alt="Side Bags">
+<div class="card-content">
+<h3>Side Bags</h3>
+<p>Casual trendy side bags</p>
+<button>Add to Cart</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Fashion Fiesta | Designed with ❤️
+</footer>
+
+</body>
+</html>
